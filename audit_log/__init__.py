@@ -1,4 +1,4 @@
-VERSION = (0, 5, 1, 'final')
+VERSION = (0, 5, 2, 'beta1')
 
 if VERSION[-1] != "final": # pragma: no cover
     __version__ = '.'.join(map(str, VERSION))
